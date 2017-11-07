@@ -44,7 +44,7 @@ class Model {
   /**
    * Gets one record in the table matching the specified conditions.
    * @param {Object} options - An object where the keys are column names and the
-   * values are the current values to be matched.
+   * values are the current values to be matched. 
    * @returns {Promise<Object>} A promise that is fulfilled with one object
    * containing the object matching the conditions or is rejected with the the
    * error that occurred during the query. Note that even if multiple objects match
